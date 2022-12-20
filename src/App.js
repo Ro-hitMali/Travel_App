@@ -22,7 +22,7 @@ const placesDatabase = {
 };
 
 export default function App() {
-  const [selectedPlaceType, setPlaceType] = useState("business");
+  const [selectedPlaceType, setPlaceType] = useState("businessTravel");
   function travelTypeClickHandler(genre) {
     setPlaceType(genre);
   }
